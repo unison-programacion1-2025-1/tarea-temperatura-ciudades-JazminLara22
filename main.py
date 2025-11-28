@@ -25,7 +25,7 @@ df_celsius = df.copy()
 ciudades= ['San Diego', 'Phoenix', 'Toronto']
 for ciudades in ciudades:
     if ciudad in df_celcius.columns:
-        df_celsius[ciudad] = df_celcius[ciudad[.apply(kelvin_to_celcius)
+        df_celsius[ciudad] = df_celsius[ciudad].apply(kelvin_to_celsius)
     else:
         print("En la columna ciudad no se encontro la columna ciudad")
 # Analisis
