@@ -27,7 +27,7 @@ for ciudades in ciudades:
     if ciudad in df_celcius.columns:
         df_celsius[ciudad] = df_celcius[ciudad[.apply(kelvin_to_celcius)
     else:
-        print("En la columna ciudad no se encontro la columna ciudad)
+        print("En la columna ciudad no se encontro la columna ciudad")
 # Analisis
 
 # TODO: Imprime que día y hora se registró la temperatura mínima en Phoenix con el siguiente mensaje: "El día con la temperatura mínima en Phoenix fue: {fecha}"
