@@ -54,7 +54,7 @@ if 'Phoenix' in df_celsius.columns:
     print(f"El día con la temperatura máxima en Phoenix fue: {fecha_max_str}")
     print(f"La temperatura máxima registrada en Phoenix fue de: {temp_max:.2f} °C")
 
-    print(f"La temperatura promedio durante 2016 en Phoenix fue de: {temp_mean:.2f} °C")
+    print(f"La temperatura promedio durante 2016 en Phoenix fue de: {temp_mean:.1f} °C")
 else:
     print("La columna 'Phoenix' no se encuentra en el DataFrame transformado.")
 
