@@ -13,11 +13,14 @@ df.set_index('Datetime', inplace=True)
 
 # TODO: Crear funcion para convertir de grados Kelvin a Celsius
 def kelvin_to_celsius(kelvin):
-    pass
+    try:
+        return kelvin - 273.15
+    except exeption:
+        return float('nan')
     
 
 # TODO: Copiar el DataFrame original y nombralo df_celsius
-
+df_celsius = df.copy()
 # TODO: Convertir las temperaturas de cada ciudad de Kelvin a Celsius usando la funcion creada
 
 # Analisis
